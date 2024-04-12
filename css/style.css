@@ -1,13 +1,12 @@
-/* selettore per il div dell'header */
+/* selettore per la section dell'header */
 #instestazione {
     height: 130px;
     background-color: rgba(156, 214, 244, 255);
-}
-
-/* selettore per l'immagine del logo */
-#logo {
-    height: 50px;
-    margin: 40px 20px;
+    background-image: url(../img/logo.svg);
+    background-repeat: no-repeat;
+    background-size: 180px;
+    background-position-x: 2%;
+    background-position-y: 45%;
 }
 
 /* selettore per l'h1 del titolo */
@@ -27,7 +26,7 @@ h1 {
     color: rgba(78, 176, 255, 255);
 }
 
-/* selettore per le multiple section dell'articolo */
+/* selettore per le section dell'articolo */
 .articolo {
     margin-left: 10px;
 }
