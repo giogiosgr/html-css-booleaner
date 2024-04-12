@@ -1,6 +1,6 @@
 /* selettore per la section dell'header */
 #instestazione {
-    height: 130px;
+    height: 135px;
     background-color: rgba(156, 214, 244, 255);
     background-image: url(../img/logo.svg);
     background-repeat: no-repeat;
@@ -11,7 +11,7 @@
 
 /* selettore per l'h1 del titolo */
 h1 {
-    font-size: 20px;
+    font-size: 38px;
     margin: 0px;
     padding-top: 30px;
 }
@@ -19,6 +19,7 @@ h1 {
 /* selettore per il p del sottotitolo */
 .sottotitolo {
     margin: 0px;
+    color: rgba(136, 128, 128, 255);
 }
 
 /* selettore per lo span del sottotitolo */
@@ -28,5 +29,5 @@ h1 {
 
 /* selettore per le section dell'articolo */
 .articolo {
-    margin-left: 10px;
+    margin-left: 20px;
 }
