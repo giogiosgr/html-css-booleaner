@@ -1,0 +1,11 @@
+/* selettore per l'header */
+#titolo {
+    height: 130px;
+    background-color: rgba(156, 214, 244, 255);
+}
+
+/* selettore per l'immagine del logo */
+#logo {
+    height: 50px;
+    margin: 40px 20px;
+}
