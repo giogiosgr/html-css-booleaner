@@ -1,5 +1,5 @@
-/* selettore per l'header */
-#titolo {
+/* selettore per il div dell'header */
+#instestazione {
     height: 130px;
     background-color: rgba(156, 214, 244, 255);
 }
@@ -8,4 +8,26 @@
 #logo {
     height: 50px;
     margin: 40px 20px;
+}
+
+/* selettore per l'h1 del titolo */
+h1 {
+    font-size: 20px;
+    margin: 0px;
+    padding-top: 30px;
+}
+
+/* selettore per il p del sottotitolo */
+.sottotitolo {
+    margin: 0px;
+}
+
+/* selettore per lo span del sottotitolo */
+.Booleaner {
+    color: rgba(78, 176, 255, 255);
+}
+
+/* selettore per le multiple section dell'articolo */
+.articolo {
+    margin-left: 10px;
 }
