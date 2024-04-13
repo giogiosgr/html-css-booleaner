@@ -2,11 +2,12 @@
 #instestazione {
     height: 135px;
     background-color: rgba(156, 214, 244, 255);
-    background-image: url(../img/logo.svg);
-    background-repeat: no-repeat;
-    background-size: 200px;
-    background-position-x: 20px;
-    background-position-y: 45%;
+}
+
+/* selettore per l'img del logo nell'header */
+#logo {
+    height: 50px;
+    padding: 40px 20px;
 }
 
 /* selettore per l'h1 del titolo */
