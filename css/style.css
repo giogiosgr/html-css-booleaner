@@ -40,8 +40,8 @@ h1 {
     color: rgba(78, 176, 255, 255);
 }
 
-/* selettore per le section dell'articolo */
-.articolo {
+/* selettore per la section dell'articolo */
+#articolo {
     margin-left: 20px;
 }
 
