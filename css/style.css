@@ -3,16 +3,23 @@ body {
     margin: 0;
 }
 
+/* selettore per il main */
+main {
+    padding: 0 180px;
+}
+
 /* selettore per la section dell'header */
 #instestazione {
     height: 135px;
     background-color: rgba(156, 214, 244, 255);
+    background-image: url("../img/pattern.png");
+    background-size: 600px;
 }
 
 /* selettore per l'img del logo nell'header */
 #logo {
     height: 50px;
-    padding: 40px 20px;
+    padding: 40px 200px;
 }
 
 /* selettore per l'h1 del titolo */
