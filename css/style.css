@@ -66,11 +66,26 @@ th {
 
 /* selettore per le prime due colonne */
 .colonna-tipo1 {
-    width: 470px;
+    width: 460px;
     text-align: left;
 }
 
-/* selettore per la prima e la terza riga */
+/* selettore per le righe dispari della tabella */
 .riga-dispari {
     background-color: rgba(223, 229, 242, 255);
+}
+
+/* selettore per il div del footer */
+#chiusura {
+    margin-top: 40px;
+    height: 50px;
+    background-color: rgba(49, 58, 107, 255);
+}
+
+/* selettore per il p nel footer */
+.copyright {
+    padding-top: 15px;
+    color: white;
+    text-align: center;
+    font-size: 13px;
 }
