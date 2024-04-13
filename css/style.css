@@ -31,3 +31,14 @@ h1 {
 .articolo {
     margin-left: 20px;
 }
+
+/* selettore per il div delle foto */
+#foto {
+    margin-top: 20px;
+}
+
+/* selettore per il p della didascalia delle foto */
+.didascalia {
+    margin: 0;
+    font-size: 12px;
+}
