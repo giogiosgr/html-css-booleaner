@@ -22,8 +22,8 @@ h1 {
     color: rgba(136, 128, 128, 255);
 }
 
-/* selettore per lo span del sottotitolo */
-.Booleaner {
+/* selettore per lo span con colorazione */
+.colorato {
     color: rgba(78, 176, 255, 255);
 }
 
@@ -41,4 +41,36 @@ h1 {
 .didascalia {
     margin: 0;
     font-size: 12px;
+}
+
+/* selettore per lo span con evidenziatura */
+.evidenziato {
+    background-color: rgba(255, 255, 0, 255);
+}
+
+/* selettore per la lista nel testo */
+.lista {
+    padding: 18px;
+}
+
+/* selettore per la tabella */
+#tabella {
+    width: 100%;
+}
+
+/* selettore per tutte le colonne di intestazione della tabella */
+th {
+    color: white;
+    background-color: rgba(127, 166, 251, 255);
+}
+
+/* selettore per le prime due colonne */
+.colonna-tipo1 {
+    width: 470px;
+    text-align: left;
+}
+
+/* selettore per la prima e la terza riga */
+.riga-dispari {
+    background-color: rgba(223, 229, 242, 255);
 }
