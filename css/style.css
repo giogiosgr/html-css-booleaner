@@ -1,3 +1,8 @@
+/* selettore per il body */
+body {
+    margin: 0;
+}
+
 /* selettore per la section dell'header */
 #instestazione {
     height: 135px;
