@@ -3,11 +3,6 @@ body {
     margin: 0;
 }
 
-/* selettore per il main */
-main {
-    padding: 0 180px;
-}
-
 /* selettore per la section dell'header */
 #instestazione {
     height: 135px;
@@ -42,7 +37,7 @@ h1 {
 
 /* selettore per la section dell'articolo */
 #articolo {
-    margin-left: 20px;
+    margin: 0 95px;
 }
 
 /* selettore per il div delle foto */
