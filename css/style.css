@@ -8,7 +8,7 @@
     height: 135px;
     background-color: rgba(156, 214, 244, 255);
     background-image: url("../img/pattern.png");
-    background-size: 100%;
+    background-size: 40%;
 }
 
 /* selettore per l'img del logo nell'header */
