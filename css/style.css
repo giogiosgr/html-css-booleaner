@@ -8,7 +8,7 @@
     height: 135px;
     background-color: rgba(156, 214, 244, 255);
     background-image: url("../img/pattern.png");
-    background-size: 600px;
+    background-size: 100%;
 }
 
 /* selettore per l'img del logo nell'header */
@@ -20,7 +20,6 @@
 /* selettore per l'h1 del titolo */
 h1 {
     font-size: 38px;
-    padding-top: 30px;
 }
 
 /* selettore per il p del sottotitolo */
@@ -33,9 +32,10 @@ h1 {
     color: rgba(78, 176, 255, 255);
 }
 
-/* selettore per la section dell'articolo */
-#articolo {
-    margin: 0 200px;
+/* selettore per la section del contenuto dell'articolo */
+.content {
+    margin: 40px auto;
+    max-width: 80%;
 }
 
 /* selettore per il div delle foto */
@@ -58,16 +58,14 @@ h1 {
     padding: 18px;
 }
 
-/* selettore per la tabella */
-#tabella {
-    width: 100%;
+/* selettore per tutte le colonne di intestazione della tabella */
+.content table {
+    text-align: left;
 }
 
-/* selettore per tutte le colonne di intestazione della tabella */
-th {
+.content table thead {
     color: white;
     background-color: rgba(127, 166, 251, 255);
-    text-align: left;
 }
 
 /* selettore per il width della terza colonna */
@@ -80,17 +78,10 @@ th {
     background-color: rgba(223, 229, 242, 255);
 }
 
-/* selettore per il div del footer */
-#chiusura {
-    margin-top: 40px;
-    height: 50px;
-    background-color: rgba(49, 58, 107, 255);
-}
-
-/* selettore per il p nel footer */
-.copyright {
-    padding-top: 18px;
+/* stile del footer */
+footer {
+    background-color: #313a6b;
     color: white;
+    padding: 1.25rem 0;
     text-align: center;
-    font-size: 13px;
 }
